@@ -1,3 +1,6 @@
+# Англо-русский словарь. Сначала добавляем слово в словарь, потом можно протестировать себя в переводе с русского на английский
+# и с английского на русский.
+
 import os
 
 en_ru = {}
@@ -13,9 +16,6 @@ def fill_my_dict(en_ru):
         znach = input ("Введите значение на русском ")
         en_ru[slovo] = znach
     return en_ru
-
-                    # for k, v in d.items():
-                        # print(k, v)
 
 def test_user(en_ru):
     errors = 0
